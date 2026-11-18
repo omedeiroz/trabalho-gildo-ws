@@ -1,6 +1,6 @@
 const app = require('./app');
 const env = require('./config/env');
-const sequelize = require('./config/database');
+const { sequelize } = require('./models');
 
 async function start() {
   try {
